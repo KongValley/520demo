@@ -55,17 +55,17 @@
 }
 .wrapper{
     width:100%;
-    height:165px;
+    display:flex;
+    height: 100%;
+    justify-content:center;
+    align-items:center;
     position: relative;
 }
 /* 给 🎁 定个轮廓 */
 .heart {
     position:relative;
-    top: 50%;
-    left: 50%;
     width: 100px;
     height: 100px;
-    transform: translate(-50%,-50%);
     background-color: tomato;
 }
 
