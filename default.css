@@ -1,0 +1,42 @@
+*{margin:0;padding: 0;box-sizing:border-box}
+*::after{box-sizing:border-box}
+*::before{box-sizing:border-box}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.code-wrapper{
+    flex: 1;
+    height: 50%;
+}
+#preview-wrapper{
+    flex: 1;
+    height: 50%;
+}
+#code {
+    overflow: hidden;
+    height: 100%;
+    padding: 20px;
+}
+.buttonList{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right:20px;
+    top:20px;
+}
+.buttonList button{
+    padding: 6px 10px;
+    margin: 6px;
+    border-radius: 5px;
+    background-color: #fff;
+    border:1px solid #999999
+}
+.buttonList button.active{
+    box-shadow: 4px 5px 12px -4px rgba(0,0,0,0.64);
+    background-color: wheat;
+}
+.buttonList button:focus{
+    outline: none;
+}
