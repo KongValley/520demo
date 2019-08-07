@@ -3,11 +3,11 @@
  * @Author: Chara
  * @Date: 2019-05-20
  * @LastEditors: Chara
- * @LastEditTime: 2019-05-20
+ * @LastEditTime: 2019-08-07 20:48:10
  * @Description: 
  */
 !function(){
-    let duration = 50
+    let duration = 10
     $('.buttonList').on('click','button',function(e){
         let $button = $(e.currentTarget)
         let speed = $button.attr('data-speed')
@@ -108,7 +108,9 @@
 }
 
 /* Done~，完成啦 */
-/*  七夕快乐 😀 */
+/* 七夕快乐 😀 */
+/* 小姐姐你愿不愿意加入我们的队伍? */
+/* 如有意向，可加微信号：kong704002390 */
 `
     writeCode('',code)
 }.call()
